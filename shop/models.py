@@ -80,6 +80,9 @@ class Comment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=False)
 
+    def __str__(self) -> str:
+        return self.name
+
 
 class Order(models.Model):
     CHOICES_STATUS = (
