@@ -9,12 +9,15 @@ identify==2.5.31
 mypy==1.7.0
 mypy-extensions==1.0.0
 nodeenv==1.8.0
+Pillow==10.1.0
 platformdirs==3.11.0
 pre-commit==3.5.0
 PyYAML==6.0.1
+setuptools==69.0.2
 sqlparse==0.4.4
 tomli==2.0.1
 types-pytz==2023.3.1.1
 types-PyYAML==6.0.12.12
 typing_extensions==4.8.0
+tzdata==2023.3
 virtualenv==20.24.6
